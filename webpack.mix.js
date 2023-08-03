@@ -7,3 +7,4 @@ mix.js('src/app.js', 'assets').setPublicPath('assets')
     processCssUrls: false,
     postCss: [tailwindcss('tailwind.config.js')]
   })
+  
